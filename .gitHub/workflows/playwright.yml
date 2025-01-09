@@ -3,7 +3,7 @@ on:
   pull_request:
   push:
     branches:
-      - main
+      - master
       - 'releases/*'
   workflow_dispatch:
   schedule:
