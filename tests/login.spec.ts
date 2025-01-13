@@ -10,6 +10,7 @@ test('Successful login', async ({page}) => {
     await login.userName.fill("standard_user")
     await login.userPassword.fill("secret_sauce")
     await login.loginButton.click()
+    //await page.screenshot({ path: 'screenshots/login.png', fullPage: true });
     //await page.locator('[data-test="username"]').fill("standard_user")
     //await page.locator('[data-test="password"]').fill("secret_sauce")
     //await page.locator('[data-test="login-button"]').click()
