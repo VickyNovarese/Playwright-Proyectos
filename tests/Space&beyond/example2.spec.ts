@@ -65,6 +65,7 @@ test('TC 8: Validate successfull logout', async ({page}) => {
     expect((page).getByText('Log in', {exact:true})).toBeVisible()
 })
 
+
 // are ommited because they failed
 // test('TC 9: Validate unsuccessfull login with username with more than 255 caracteres',async({page})=>{
 // //"Username
